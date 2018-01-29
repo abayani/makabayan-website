@@ -1,0 +1,565 @@
+<ul class="nav nav-tabs">
+<li class="active"><a href="#home" data-toggle="tab">2018</a></li>
+<li><a href="#menu1" data-toggle="tab">2017</a></li>
+<li><a href="#menu2" data-toggle="tab">2016</a></li>
+<li><a href="#menu3" data-toggle="tab">2015</a></li>
+<li><a href="#menu4" data-toggle="tab">2014</a></li>
+<li><a href="#menu5" data-toggle="tab">Previous</a></li>
+</ul>
+<div class="tab-content">
+<div id="home" class="tab-pane fade in active">
+<p><img src="images/stories/Kalayaan_Celebrations/2018/logo_2018.jpg" alt="" width="200" height="150" /></p>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+
+<!-- START META TAG SECTION -->
+<meta charset="utf-8">
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+<meta http-equiv="Content-Language" content="en">
+<!-- END META TAG SECTION -->
+
+
+<!-- Start of Script -->
+<SCRIPT LANGUAGE="JavaScript"><!--
+
+var count=1;
+
+function codename() {
+count=1;
+
+document.formname.item_name_1.value='';
+document.formname.item_name_2.value='';
+document.formname.item_name_3.value='';
+document.formname.item_name_4.value='';
+document.formname.item_name_5.value='';
+document.formname.item_name_6.value='';
+document.formname.item_name_7.value='';
+document.formname.item_name_8.value='';
+document.formname.item_name_9.value='';
+
+document.formname.amount_1.value='';
+document.formname.amount_2.value='';
+document.formname.amount_3.value='';
+document.formname.amount_4.value='';
+document.formname.amount_5.value='';
+document.formname.amount_6.value='';
+document.formname.amount_7.value='';
+document.formname.amount_8.value='';
+document.formname.amount_9.value='';
+
+document.formname.quantity_1.value='';
+document.formname.quantity_2.value='';
+document.formname.quantity_3.value='';
+document.formname.quantity_4.value='';
+document.formname.quantity_5.value='';
+document.formname.quantity_6.value='';
+document.formname.quantity_7.value='';
+
+if(document.formname.item1.checked)
+{
+    document.formname.item_name_1.value = "Gala Ticket";
+    document.formname.amount_1.value = 45;
+    var qty = document.getElementById("id1").value;
+    if(qty==''){
+      qty=1;
+    }
+    document.formname.quantity_1.value = qty;
+    count=count+1;
+}
+if(document.formname.item2.checked)
+{
+    if(count==2){
+        document.formname.item_name_2.value = "Organization";
+        document.formname.amount_2.value = "450";
+        var qty= document.getElementById("id2").value;
+        if(qty==''){
+           qty=1;
+        }
+	document.formname.quantity_2.value = qty;
+        count=count+1;
+    }
+    if(count==1){
+        document.formname.item_name_1.value = "Organization";
+        document.formname.amount_1.value = "450";
+	var qty= document.getElementById("id2").value;
+        if(qty==''){
+           qty=1;
+        }
+	document.formname.quantity_1.value = qty;
+        count=count+1;
+    }
+}
+if(document.formname.item3.checked)
+{
+
+    if(count==3){
+        document.formname.item_name_3.value = "Full Page Ad";
+        document.formname.amount_3.value = "150";
+	var qty= document.getElementById("id3").value;
+        if(qty==''){
+           qty=1;
+        }
+	document.formname.quantity_3.value = qty;
+        count=count+1;
+    }
+    if(count==2){
+        document.formname.item_name_2.value = "Full Page Ad";
+        document.formname.amount_2.value = "150";
+	var qty= document.getElementById("id3").value;
+        if(qty==''){
+           qty=1;
+        }
+	document.formname.quantity_2.value = qty;
+        count=count+1;
+    }
+    if(count==1){
+        document.formname.item_name_1.value = "Full Page Ad";
+        document.formname.amount_1.value = "150";
+	var qty= document.getElementById("id3").value;
+        if(qty==''){
+           qty=1;
+        }
+	document.formname.quantity_1.value = qty;
+        count=count+1;
+    }
+}
+if(document.formname.item4.checked)
+{
+    if(count==4){
+        document.formname.item_name_4.value = "Half Page Ad";
+        document.formname.amount_4.value = "75";
+		document.formname.quantity_4.value = document.getElementById("id4").value;
+        count=count+1;
+    }
+    if(count==3){
+        document.formname.item_name_3.value = "Half Page Ad";
+        document.formname.amount_3.value = "75";
+		document.formname.quantity_3.value = document.getElementById("id4").value;
+        count=count+1;
+    }
+    if(count==2){
+        document.formname.item_name_2.value = "Half Page Ad";
+        document.formname.amount_2.value = "75";
+		document.formname.quantity_2.value = document.getElementById("id4").value;
+        count=count+1;
+    }
+    if(count==1){
+        document.formname.item_name_1.value = "Half Page Ad";
+        document.formname.amount_1.value = "75";
+		document.formname.quantity_1.value = document.getElementById("id4").value;
+        count=count+1;
+    }
+}
+if(document.formname.item5.checked)
+{
+	if(count==5){
+        document.formname.item_name_5.value = "Food Vendor";
+        document.formname.amount_5.value = "50";
+		document.formname.quantity_5.value = document.getElementById("id5").value;
+        count=count+1;
+    }
+    if(count==4){
+        document.formname.item_name_4.value = "Food Vendor";
+        document.formname.amount_4.value = "50";
+		document.formname.quantity_4.value = document.getElementById("id5").value;
+        count=count+1;
+    }
+    if(count==3){
+        document.formname.item_name_3.value = "Food Vendor";
+        document.formname.amount_3.value = "50";
+		document.formname.quantity_3.value = document.getElementById("id5").value;
+        count=count+1;
+    }
+    if(count==2){
+        document.formname.item_name_2.value = "Food Vendor";
+        document.formname.amount_2.value = "50";
+		document.formname.quantity_2.value = document.getElementById("id5").value;
+        count=count+1;
+    }
+    if(count==1){
+        document.formname.item_name_1.value = "Food Vendor";
+        document.formname.amount_1.value = "50";
+		document.formname.quantity_1.value = document.getElementById("id5").value;
+        count=count+1;
+    }
+}
+if(document.formname.item6.checked)
+{
+	if(count==6){
+        document.formname.item_name_6.value = "Non Food Vendor";
+        document.formname.amount_6.value = "25";
+		document.formname.quantity_6.value = document.getElementById("id6").value;
+        count=count+1;
+    }
+	if(count==5){
+        document.formname.item_name_5.value = "Non Food Vendor";
+        document.formname.amount_5.value = "25";
+		document.formname.quantity_5.value = document.getElementById("id6").value;
+        count=count+1;
+    }
+    if(count==4){
+        document.formname.item_name_4.value = "Non Food Vendor";
+        document.formname.amount_4.value = "25";
+		document.formname.quantity_4.value = document.getElementById("id6").value;
+        count=count+1;
+    }
+    if(count==3){
+        document.formname.item_name_3.value = "Non Food Vendor";
+        document.formname.amount_3.value = "25";
+		document.formname.quantity_3.value = document.getElementById("id6").value;
+        count=count+1;
+    }
+    if(count==2){
+        document.formname.item_name_2.value = "Non Food Vendor";
+        document.formname.amount_2.value = "25";
+		document.formname.quantity_2.value = document.getElementById("id6").value;
+        count=count+1;
+    }
+    if(count==1){
+        document.formname.item_name_1.value = "Non Food Vendor";
+        document.formname.amount_1.value = "25";
+		document.formname.quantity_1.value = document.getElementById("id6").value;
+        count=count+1;
+    }
+}
+if(document.formname.item7.checked)
+{
+	if(count==7){
+        document.formname.item_name_7.value = "Kalayaan T shirt";
+        document.formname.amount_7.value = "15";
+		document.formname.quantity_7.value = document.getElementById("id7").value;
+        count=count+1;
+    }
+	if(count==6){
+        document.formname.item_name_6.value = "Kalayaan T shirt";
+        document.formname.amount_6.value = "15";
+		document.formname.quantity_6.value = document.getElementById("id7").value;
+        count=count+1;
+    }
+	if(count==5){
+        document.formname.item_name_5.value = "Kalayaan T shirt";
+        document.formname.amount_5.value = "15";
+		document.formname.quantity_5.value = document.getElementById("id7").value;
+        count=count+1;
+    }
+    if(count==4){
+        document.formname.item_name_4.value = "Kalayaan T shirt";
+        document.formname.amount_4.value = "15";
+		document.formname.quantity_4.value = document.getElementById("id7").value;
+        count=count+1;
+    }
+    if(count==3){
+        document.formname.item_name_3.value = "Kalayaan T shirt";
+        document.formname.amount_3.value = "15";
+		document.formname.quantity_3.value = document.getElementById("id7").value;
+        count=count+1;
+    }
+    if(count==2){
+        document.formname.item_name_2.value = "Kalayaan T shirt";
+        document.formname.amount_2.value = "15";
+		document.formname.quantity_2.value = document.getElementById("id7").value;
+        count=count+1;
+    }
+    if(count==1){
+        document.formname.item_name_1.value = "Kalayaan T shirt";
+        document.formname.amount_1.value = "15";
+		document.formname.quantity_1.value = document.getElementById("id7").value;
+        count=count+1;
+    }
+}
+if(document.formname.item8.checked)
+{
+	if(count==8){
+        document.formname.item_name_8.value = "Sponsor";
+		var amt=document.getElementById("id8").value;
+        document.formname.amount_8.value = amt;
+        count=count+1;
+    }
+	if(count==7){
+        document.formname.item_name_7.value = "Sponsor";
+		var amt=document.getElementById("id8").value;
+        document.formname.amount_7.value = amt;
+        count=count+1;
+    }
+	if(count==6){
+        document.formname.item_name_6.value = "Sponsor";
+		var amt=document.getElementById("id8").value;
+        document.formname.amount_6.value = amt;
+        count=count+1;
+    }
+	if(count==5){
+        document.formname.item_name_5.value = "Sponsor";
+		var amt=document.getElementById("id8").value;
+        document.formname.amount_5.value = amt;
+        count=count+1;
+    }
+    if(count==4){
+        document.formname.item_name_4.value = "Sponsor";
+		var amt=document.getElementById("id8").value;
+        document.formname.amount_4.value = amt;
+        count=count+1;
+    }
+    if(count==3){
+        document.formname.item_name_3.value = "Sponsor";
+		var amt=document.getElementById("id8").value;
+        document.formname.amount_3.value = amt;
+        count=count+1;
+    }
+    if(count==2){
+        document.formname.item_name_2.value = "Sponsor";
+		var amt=document.getElementById("id8").value;
+        document.formname.amount_2.value = amt;
+        count=count+1;
+    }
+    if(count==1){
+        document.formname.item_name_1.value = "Sponsor";
+		var amt=document.getElementById("id8").value;
+        document.formname.amount_1.value = amt;
+        count=count+1;
+    }
+}
+if(document.formname.item9.checked)
+{
+	if(count==9){
+        document.formname.item_name_9.value = "Donation";
+		var amt=document.getElementById("id9").value;
+        document.formname.amount_9.value = amt;
+        count=count+1;
+    }
+	if(count==8){
+        document.formname.item_name_8.value = "Donation";
+		var amt=document.getElementById("id9").value;
+        document.formname.amount_8.value = amt;
+        count=count+1;
+    }
+	if(count==7){
+        document.formname.item_name_7.value = "Donation";
+		var amt=document.getElementById("id9").value;
+        document.formname.amount_7.value = amt;
+        count=count+1;
+    }
+	if(count==6){
+        document.formname.item_name_6.value = "Donation";
+		var amt=document.getElementById("id9").value;
+        document.formname.amount_6.value = amt;
+        count=count+1;
+    }
+	if(count==5){
+        document.formname.item_name_5.value = "Donation";
+		var amt=document.getElementById("id9").value;
+        document.formname.amount_5.value = amt;
+        count=count+1;
+    }
+    if(count==4){
+        document.formname.item_name_4.value = "Donation";
+		var amt=document.getElementById("id9").value;
+        document.formname.amount_4.value = amt;
+        count=count+1;
+    }
+    if(count==3){
+        document.formname.item_name_3.value = "Donation";
+		var amt=document.getElementById("id9").value;
+        document.formname.amount_3.value = amt;
+        count=count+1;
+    }
+    if(count==2){
+        document.formname.item_name_2.value = "Donation";
+		var amt=document.getElementById("id9").value;
+        document.formname.amount_2.value = amt;
+        count=count+1;
+    }
+    if(count==1){
+        document.formname.item_name_1.value = "Donation";
+		var amt=document.getElementById("id9").value;
+        document.formname.amount_1.value = amt;
+        count=count+1;
+    }
+}
+
+}
+//-->
+</SCRIPT>
+<!-- End of Script -->
+
+
+
+</head>
+
+<body>
+
+<!-- START CODE SECTION -->
+
+<br><br>
+
+<form name="formname" target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+<!-- If using a Business or Company Logo Graphic, include the "cpp_header_image" variable in your View Cart code. -->
+<!--input type="hidden" name="cpp_header_image" value="https://www.yourwebsite.com/logo.jpg">
+<!-- Replace "business" value with your PayPal Email Address or Account ID -->
+<input type="hidden" name="business" value="xxxxx_ID">
+<input type="hidden" name="cmd" value="_cart">
+<input type="hidden" name="upload" value="1">
+<input type="hidden" name="currency_code" value="USD">
+<input type="hidden" name="lc" value="US">
+<!-- Replace value with the web page you want the customer to return to after a successful transaction -->
+<input type="hidden" name="return" value="http://www.yourwebsite.com/ThankYou.html">
+<!-- Replace value with the web page you want the customer to return to after item cancellation -->
+<input type="hidden" name="cancel_return" value="http://www.yourwebsite.com/Cancel.html">
+<input type="hidden" name="button_subtype" value="products">
+<input type="hidden" name="no_note" value="0">
+<input type="hidden" name="cn" value="Add special instructions to the seller:">
+<input type="hidden" name="bn" value="PP-ShopCartBF:btn_paynowCC_LG.gif:NonHosted">
+<input type="hidden" name="amount_1">
+<input type="hidden" name="amount_2">
+<input type="hidden" name="amount_3">
+<input type="hidden" name="amount_4">
+<input type="hidden" name="amount_5">
+<input type="hidden" name="amount_6">
+<input type="hidden" name="amount_7">
+<input type="hidden" name="amount_8">
+<input type="hidden" name="amount_9">
+
+<input type="hidden" name="item_name_1">
+<input type="hidden" name="item_name_2">
+<input type="hidden" name="item_name_3">
+<input type="hidden" name="item_name_4">
+<input type="hidden" name="item_name_5">
+<input type="hidden" name="item_name_6">
+<input type="hidden" name="item_name_7">
+<input type="hidden" name="item_name_8">
+<input type="hidden" name="item_name_9">
+
+<input type="hidden" name="quantity_1">
+<input type="hidden" name="quantity_2">
+<input type="hidden" name="quantity_3">
+<input type="hidden" name="quantity_4">
+<input type="hidden" name="quantity_5">
+<input type="hidden" name="quantity_6">
+<input type="hidden" name="quantity_7">
+
+<table>
+    <style type="text/css">
+        input{width:45px;}
+    </style>
+    <tr>
+        <td><b>CheckBox&nbsp;&nbsp;</b></td>
+        <td><b>Item&nbsp;&nbsp;</b></td>
+        <td><b>Price&nbsp;&nbsp;</b></td>
+		<td><b>Quantity&nbsp;&nbsp;</b></td>
+    </tr>
+    <tr>
+        <td>&nbsp;&nbsp;<input type="checkbox" name="item1" value="Gala Ticket"></td>
+        <td>Gala Ticket on or before April 15th&nbsp;&nbsp;</td>
+        <td>$45.00</td>
+		<td><input type="text" name="quantity1" id="id1"></td>
+    </tr>
+   <tr>
+        <td>&nbsp;&nbsp;<input type="checkbox" name="item1x" value="Gala Ticketx" disabled></td>
+        <td>Gala Ticket on or before May 15th&nbsp;&nbsp;</td>
+        <td>$50.00</td>
+		<td><input type="text" name="quantity1x" id="id1x" size="3" disabled></td>
+    </tr>
+   <tr>
+        <td>&nbsp;&nbsp;<input type="checkbox" name="item1y" value="Gala Tickety" disabled></td>
+        <td>Gala Ticket after May 15th&nbsp;&nbsp;</td>
+        <td>$60.00</td>
+		<td><input type="text" name="quantity1y" id="id1y" size="3" disabled></td>
+    </tr>
+    <tr>
+        <td>&nbsp;&nbsp;<input type="checkbox" name="item2" value="Organization"></td>
+        <td>Organization&nbsp;&nbsp;</td>
+        <td>$450.00</td>
+		<td><input type="text" name="quantity2" id="id2" size="3"></td>
+    </tr>
+    <tr>
+        <td>&nbsp;&nbsp;<input type="checkbox" name="item3" value="Full Page Ad"></td>
+        <td>Full Page Ad&nbsp;&nbsp;</td>
+        <td>$150.00</td>
+		<td><input type="text" name="quantity3" id="id3" size="3"></td>
+    </tr>
+    <tr>
+        <td>&nbsp;&nbsp;<input type="checkbox" name="item4" value="Half Page Ad"></td>
+        <td>Half Page Ad&nbsp;&nbsp;</td>
+        <td>$75.00</td>
+		<td><input type="text" name="quantity4" id="id4" size="3"></td>
+    </tr>
+    <tr>
+        <td>&nbsp;&nbsp;<input type="checkbox" name="item5" value="Food Vendor"></td>
+        <td>Food Vendor&nbsp;&nbsp;</td>
+        <td>$50.00</td>
+		<td><input type="text" name="quantity5" id="id5" size="3"></td>
+    </tr>
+    <tr>
+        <td>&nbsp;&nbsp;<input type="checkbox" name="item6" value="Non Food Vendor"></td>
+        <td>Non Food Vendor&nbsp;&nbsp;</td>
+        <td>$25.00</td>
+		<td><input type="text" name="quantity6" id="id6" size="3"></td>
+    </tr>
+    <tr>
+        <td>&nbsp;&nbsp;<input type="checkbox" name="item7" value="Kalayaan T shirt"></td>
+        <td>Kalayaan T shirt&nbsp;&nbsp;</td>
+        <td>$15.00</td>
+		<td><input type="text" name="quantity7" id="id7" size="3"></td>
+    </tr>
+	<tr>
+        <td>&nbsp;&nbsp;<input type="checkbox" name="item8" value="Sponsor"></td>
+        <td>Sponsor&nbsp;&nbsp;</td>
+        <td><input type="text" name="amount9" id="id8" size="10"></td>
+    </tr>
+    <tr>
+        <td>&nbsp;&nbsp;<input type="checkbox" name="item9" value="Donation"></td>
+        <td>Donation&nbsp;&nbsp;</td>
+        <td><input type="text" name="amount10" id="id9" size="10"></td>
+    </tr>
+
+</table>
+<br>
+
+<input type="button" value="Reset" style="font-weight:bold" onClick="this.form.reset()">
+
+<br><br>
+
+<input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_paynowCC_LG.gif" border="0" name="submit" onclick="codename()" alt="Make payments with PayPal - it's fast, free and secure!">
+<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+</form>
+
+
+<!-- END BUTTON -->
+
+
+
+<!-- END CODE SECTION -->
+
+
+</body>
+</html>
+<br>
+<hr align="left" width="50%" noshade>
+<br>
+</div>
+<div id="menu1" class="tab-pane fade">
+<center>
+<p><img src="images/stories/Kalayaan_Celebrations/2017/Kalayaandonation.jpg" alt="" /></p>
+</center>
+ </div>
+<div id="menu2" class="tab-pane fade"> 
+<center>
+<p><img src="images/stories/Kalayaan_Celebrations/2016/Kalayaan2016.jpg" alt="" /></p>
+<p><img src="images/stories/Kalayaan_Celebrations/2016/Kalayaan_cover-2016-2-page-002.jpg" alt="" /></p>
+</center>
+</div>
+<div id="menu3" class="tab-pane fade"> 
+<center>
+<p><img src="images/stories/Kalayaan_Celebrations/2015/kalayaanlogo.jpg" alt="" /></p>
+</center>
+</div>
+<div id="menu4" class="tab-pane fade"> 
+<center>
+<p><img src="images/stories/Kalayaan_Celebrations/2014/familyfunday-final.jpg" alt="" /></p>
+</center>
+</div>
+<div id="menu5" class="tab-pane fade"> 
+<h3>Kalayaan 2010</h3>
+<p>{vsig}stories/kalayaan2010/independence{/vsig}</p>
+</div>
+</div>
