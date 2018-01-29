@@ -396,7 +396,7 @@ if(document.formname.item9.checked)
 <!-- If using a Business or Company Logo Graphic, include the "cpp_header_image" variable in your View Cart code. -->
 <!--input type="hidden" name="cpp_header_image" value="https://www.yourwebsite.com/logo.jpg">
 <!-- Replace "business" value with your PayPal Email Address or Account ID -->
-<input type="hidden" name="business" value="3BJAJEXLS6U7E">
+<input type="hidden" name="business" value="xx_ID">
 <input type="hidden" name="cmd" value="_cart">
 <input type="hidden" name="upload" value="1">
 <input type="hidden" name="currency_code" value="USD">
